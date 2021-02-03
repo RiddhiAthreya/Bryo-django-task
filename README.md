@@ -1,7 +1,15 @@
 # OTP-in-django
 Quick and simple technique to implement the OTP functionality in your Django Project.
 
-### Python Packages required: ```pyotp, base64, django, django-rest-framework```
+### Python Packages required: ```django-otp, base64, django, django-rest-framework```
+
+I have used django-otp to generate TOTP tokens 
+There are 4 main steps involved:
+- Create a TOTP object.
+- Use that object to generate the token.
+- Take user input.
+- Verify the token
+Please review  the code to understand further
 
 ## API Calls
 
